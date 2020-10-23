@@ -1,0 +1,20 @@
+E:\Lập Trình\LT_Window\bài tập\máy tính\máy tính\bin\Debug\máy tính.exe.config
+E:\Lập Trình\LT_Window\bài tập\máy tính\máy tính\bin\Debug\máy tính.exe
+E:\Lập Trình\LT_Window\bài tập\máy tính\máy tính\bin\Debug\máy tính.pdb
+E:\Lập Trình\LT_Window\bài tập\máy tính\máy tính\obj\Debug\máy tính.csprojAssemblyReference.cache
+E:\Lập Trình\LT_Window\bài tập\máy tính\máy tính\obj\Debug\máy_tính.Form1.resources
+E:\Lập Trình\LT_Window\bài tập\máy tính\máy tính\obj\Debug\máy_tính.Properties.Resources.resources
+E:\Lập Trình\LT_Window\bài tập\máy tính\máy tính\obj\Debug\máy tính.csproj.GenerateResource.cache
+E:\Lập Trình\LT_Window\bài tập\máy tính\máy tính\obj\Debug\máy tính.csproj.CoreCompileInputs.cache
+E:\Lập Trình\LT_Window\bài tập\máy tính\máy tính\obj\Debug\máy tính.exe
+E:\Lập Trình\LT_Window\bài tập\máy tính\máy tính\obj\Debug\máy tính.pdb
+D:\IT\LT_Window1\bài tập\máy tính\máy tính\bin\Debug\máy tính.exe.config
+D:\IT\LT_Window1\bài tập\máy tính\máy tính\bin\Debug\máy tính.exe
+D:\IT\LT_Window1\bài tập\máy tính\máy tính\bin\Debug\máy tính.pdb
+D:\IT\LT_Window1\bài tập\máy tính\máy tính\obj\Debug\máy tính.csprojAssemblyReference.cache
+D:\IT\LT_Window1\bài tập\máy tính\máy tính\obj\Debug\máy_tính.Form1.resources
+D:\IT\LT_Window1\bài tập\máy tính\máy tính\obj\Debug\máy_tính.Properties.Resources.resources
+D:\IT\LT_Window1\bài tập\máy tính\máy tính\obj\Debug\máy tính.csproj.GenerateResource.cache
+D:\IT\LT_Window1\bài tập\máy tính\máy tính\obj\Debug\máy tính.csproj.CoreCompileInputs.cache
+D:\IT\LT_Window1\bài tập\máy tính\máy tính\obj\Debug\máy tính.exe
+D:\IT\LT_Window1\bài tập\máy tính\máy tính\obj\Debug\máy tính.pdb

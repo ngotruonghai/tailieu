@@ -1,0 +1,20 @@
+C:\Users\ADMIN\Desktop\Tổng hợp\listbox\bin\Debug\listbox.exe.config
+C:\Users\ADMIN\Desktop\Tổng hợp\listbox\bin\Debug\listbox.exe
+C:\Users\ADMIN\Desktop\Tổng hợp\listbox\bin\Debug\listbox.pdb
+C:\Users\ADMIN\Desktop\Tổng hợp\listbox\obj\Debug\listbox.csprojAssemblyReference.cache
+C:\Users\ADMIN\Desktop\Tổng hợp\listbox\obj\Debug\listbox.Form1.resources
+C:\Users\ADMIN\Desktop\Tổng hợp\listbox\obj\Debug\listbox.Properties.Resources.resources
+C:\Users\ADMIN\Desktop\Tổng hợp\listbox\obj\Debug\listbox.csproj.GenerateResource.cache
+C:\Users\ADMIN\Desktop\Tổng hợp\listbox\obj\Debug\listbox.csproj.CoreCompileInputs.cache
+C:\Users\ADMIN\Desktop\Tổng hợp\listbox\obj\Debug\listbox.exe
+C:\Users\ADMIN\Desktop\Tổng hợp\listbox\obj\Debug\listbox.pdb
+E:\program\LT_Window1\bài tập\Tổng hợp\listbox\bin\Debug\listbox.exe.config
+E:\program\LT_Window1\bài tập\Tổng hợp\listbox\bin\Debug\listbox.exe
+E:\program\LT_Window1\bài tập\Tổng hợp\listbox\bin\Debug\listbox.pdb
+E:\program\LT_Window1\bài tập\Tổng hợp\listbox\obj\Debug\listbox.csprojAssemblyReference.cache
+E:\program\LT_Window1\bài tập\Tổng hợp\listbox\obj\Debug\listbox.Form1.resources
+E:\program\LT_Window1\bài tập\Tổng hợp\listbox\obj\Debug\listbox.Properties.Resources.resources
+E:\program\LT_Window1\bài tập\Tổng hợp\listbox\obj\Debug\listbox.csproj.GenerateResource.cache
+E:\program\LT_Window1\bài tập\Tổng hợp\listbox\obj\Debug\listbox.csproj.CoreCompileInputs.cache
+E:\program\LT_Window1\bài tập\Tổng hợp\listbox\obj\Debug\listbox.exe
+E:\program\LT_Window1\bài tập\Tổng hợp\listbox\obj\Debug\listbox.pdb

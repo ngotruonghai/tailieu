@@ -1,0 +1,74 @@
+using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows.Forms;
+using System.Collections;
+
+namespace bài_t?p_1
+{
+    public partial class Form1 : Form
+    {
+        public Form1()
+        {
+            InitializeComponent();
+        }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+
+        }
+       
+        private void groupBox1_Enter(object sender, EventArgs e)
+        {
+            txt_ketqua.Enabled = false;
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+        //    ArrayList arr = new ArrayList();
+        //    string khai_bao_chuoi = txt_dulieu.Text;
+        //    string chuoi_con = txt_chuoitim.Text;
+        //    int vitri = 0;
+        //    vitri = khai_bao_chuoi.IndexOf(txt_chuoitim.Text,vitri);
+        //    arr.Add(khai_bao_chuoi.IndexOf(txt_chuoitim.Text, vitri) + 1);
+        //    while (khai_bao_chuoi.IndexOf(txt_chuoitim.Text, vitri + 1) > 0)
+        //    {
+        //        arr.Add(khai_bao_chuoi.IndexOf(txt_chuoitim.Text, vitri + 1) + 1);
+        //        vitri = khai_bao_chuoi.IndexOf(txt_chuoitim.Text, vitri + 1);
+        //    }
+        //    foreach (int i in arr)
+        //    {
+        //        txt_ketqua.Text += i.ToString() + "  ";
+        //        txt_ketqua.Text.Trim();
+        //    }
+            ArrayList arr = new ArrayList();
+            string DL = txt_dulieu.Text;
+            string T = txt_chuoitim.Text;
+            int vitri = 0;
+            vitri = DL.IndexOf(T, vitri);
+            arr.Add(vitri+1);
+            while(DL.IndexOf(T,vitri+1)>0)
+            {
+                vitri = DL.IndexOf(T, vitri + 1);
+                arr.Add(vitri+1);
+            }
+            txt_ketqua.Text = "V? trí c?n tìm: ";
+            foreach(int i in arr)
+            {
+                txt_ketqua.Text += i.ToString()+"  ";
+                txt_ketqua.Text.Trim();
+            }
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            txt_ketqua.Clear();
+            txt_ketqua.Text = txt_dulieu.Text.Replace(txt_chuoitim.Text, txt_thaythe.Text);
+        }
+    }
+}

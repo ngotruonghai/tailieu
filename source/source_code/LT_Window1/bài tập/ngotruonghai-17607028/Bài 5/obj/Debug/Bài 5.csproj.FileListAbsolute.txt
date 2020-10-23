@@ -1,0 +1,10 @@
+E:\program\LT_Window1\bài tập\ngotruonghai-17607028\Bài 5\bin\Debug\Bài 5.exe.config
+E:\program\LT_Window1\bài tập\ngotruonghai-17607028\Bài 5\bin\Debug\Bài 5.exe
+E:\program\LT_Window1\bài tập\ngotruonghai-17607028\Bài 5\bin\Debug\Bài 5.pdb
+E:\program\LT_Window1\bài tập\ngotruonghai-17607028\Bài 5\obj\Debug\Bài 5.csprojAssemblyReference.cache
+E:\program\LT_Window1\bài tập\ngotruonghai-17607028\Bài 5\obj\Debug\Bài_5.Form1.resources
+E:\program\LT_Window1\bài tập\ngotruonghai-17607028\Bài 5\obj\Debug\Bài_5.Properties.Resources.resources
+E:\program\LT_Window1\bài tập\ngotruonghai-17607028\Bài 5\obj\Debug\Bài 5.csproj.GenerateResource.cache
+E:\program\LT_Window1\bài tập\ngotruonghai-17607028\Bài 5\obj\Debug\Bài 5.csproj.CoreCompileInputs.cache
+E:\program\LT_Window1\bài tập\ngotruonghai-17607028\Bài 5\obj\Debug\Bài 5.exe
+E:\program\LT_Window1\bài tập\ngotruonghai-17607028\Bài 5\obj\Debug\Bài 5.pdb

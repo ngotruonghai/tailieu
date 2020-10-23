@@ -1,0 +1,10 @@
+C:\Users\ADMIN\Desktop\ontap\ontap4\bin\Debug\ontap4.exe.config
+C:\Users\ADMIN\Desktop\ontap\ontap4\bin\Debug\ontap4.exe
+C:\Users\ADMIN\Desktop\ontap\ontap4\bin\Debug\ontap4.pdb
+C:\Users\ADMIN\Desktop\ontap\ontap4\obj\Debug\ontap4.csprojAssemblyReference.cache
+C:\Users\ADMIN\Desktop\ontap\ontap4\obj\Debug\ontap4.Properties.Resources.resources
+C:\Users\ADMIN\Desktop\ontap\ontap4\obj\Debug\ontap4.csproj.GenerateResource.cache
+C:\Users\ADMIN\Desktop\ontap\ontap4\obj\Debug\ontap4.csproj.CoreCompileInputs.cache
+C:\Users\ADMIN\Desktop\ontap\ontap4\obj\Debug\ontap4.exe
+C:\Users\ADMIN\Desktop\ontap\ontap4\obj\Debug\ontap4.pdb
+C:\Users\ADMIN\Desktop\ontap\ontap4\obj\Debug\ontap4.Form1.resources

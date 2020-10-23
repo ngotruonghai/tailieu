@@ -1,0 +1,22 @@
+C:\Users\ADMIN\Desktop\ontap\ontap5\bin\Debug\ontap5.exe.config
+C:\Users\ADMIN\Desktop\ontap\ontap5\bin\Debug\ontap5.exe
+C:\Users\ADMIN\Desktop\ontap\ontap5\bin\Debug\ontap5.pdb
+C:\Users\ADMIN\Desktop\ontap\ontap5\obj\Debug\ontap5.csprojAssemblyReference.cache
+C:\Users\ADMIN\Desktop\ontap\ontap5\obj\Debug\ontap5.Properties.Resources.resources
+C:\Users\ADMIN\Desktop\ontap\ontap5\obj\Debug\ontap5.csproj.GenerateResource.cache
+C:\Users\ADMIN\Desktop\ontap\ontap5\obj\Debug\ontap5.csproj.CoreCompileInputs.cache
+C:\Users\ADMIN\Desktop\ontap\ontap5\obj\Debug\ontap5.exe
+C:\Users\ADMIN\Desktop\ontap\ontap5\obj\Debug\ontap5.pdb
+C:\Users\ADMIN\Desktop\ontap\ontap5\obj\Debug\ontap5.Form1.resources
+C:\Users\ADMIN\Desktop\ontap\ontap5\obj\Debug\ontap5.giatri.resources
+D:\IT\LT_Window1\bài tập\ontap\ontap5\bin\Debug\ontap5.exe.config
+D:\IT\LT_Window1\bài tập\ontap\ontap5\bin\Debug\ontap5.exe
+D:\IT\LT_Window1\bài tập\ontap\ontap5\bin\Debug\ontap5.pdb
+D:\IT\LT_Window1\bài tập\ontap\ontap5\obj\Debug\ontap5.csprojAssemblyReference.cache
+D:\IT\LT_Window1\bài tập\ontap\ontap5\obj\Debug\ontap5.Form1.resources
+D:\IT\LT_Window1\bài tập\ontap\ontap5\obj\Debug\ontap5.giatri.resources
+D:\IT\LT_Window1\bài tập\ontap\ontap5\obj\Debug\ontap5.Properties.Resources.resources
+D:\IT\LT_Window1\bài tập\ontap\ontap5\obj\Debug\ontap5.csproj.GenerateResource.cache
+D:\IT\LT_Window1\bài tập\ontap\ontap5\obj\Debug\ontap5.csproj.CoreCompileInputs.cache
+D:\IT\LT_Window1\bài tập\ontap\ontap5\obj\Debug\ontap5.exe
+D:\IT\LT_Window1\bài tập\ontap\ontap5\obj\Debug\ontap5.pdb
