@@ -1,0 +1,12 @@
+C:\Users\pc\Desktop\QL_vai\QL_vai\bin\Debug\QL_vai.exe.config
+C:\Users\pc\Desktop\QL_vai\QL_vai\bin\Debug\QL_vai.exe
+C:\Users\pc\Desktop\QL_vai\QL_vai\bin\Debug\QL_vai.pdb
+C:\Users\pc\Desktop\QL_vai\QL_vai\obj\Debug\QL_vai.csprojAssemblyReference.cache
+C:\Users\pc\Desktop\QL_vai\QL_vai\obj\Debug\QL_vai.Form1.resources
+C:\Users\pc\Desktop\QL_vai\QL_vai\obj\Debug\QL_vai.Properties.Resources.resources
+C:\Users\pc\Desktop\QL_vai\QL_vai\obj\Debug\QL_vai.csproj.GenerateResource.cache
+C:\Users\pc\Desktop\QL_vai\QL_vai\obj\Debug\QL_vai.csproj.CoreCompileInputs.cache
+C:\Users\pc\Desktop\QL_vai\QL_vai\obj\Debug\QL_vai.exe
+C:\Users\pc\Desktop\QL_vai\QL_vai\obj\Debug\QL_vai.pdb
+C:\Users\pc\Desktop\QL_vai\QL_vai\obj\Debug\QL_vai.menutrip.resources
+C:\Users\pc\Desktop\QL_vai\QL_vai\obj\Debug\QL_vai.login.resources

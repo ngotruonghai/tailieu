@@ -1,0 +1,763 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+      <Schema Namespace="HPE_ETCModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2008" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityType Name="IN_CheckEtag">
+          <Key>
+            <PropertyRef Name="InCheckEtagID" />
+          </Key>
+          <Property Name="InCheckEtagID" Type="uniqueidentifier" Nullable="false" />
+          <Property Name="EtagId" Type="varchar" MaxLength="24" Nullable="false" />
+          <Property Name="CheckDate" Type="datetime" Nullable="false" />
+          <Property Name="CheckTime" Type="int" Nullable="false" />
+          <Property Name="VehicleTypeID" Type="int" Nullable="false" />
+          <Property Name="EmployeeID" Type="int" Nullable="false" />
+          <Property Name="LaneID" Type="int" Nullable="false" />
+          <Property Name="ShiftID" Type="int" Nullable="false" />
+          <Property Name="StationID" Type="int" Nullable="false" />
+          <Property Name="PlateType" Type="smallint" />
+          <Property Name="RegisPlate" Type="nvarchar" MaxLength="12" />
+          <Property Name="RecogPlate" Type="nvarchar" MaxLength="12" />
+          <Property Name="RecogResultType" Type="smallint" />
+          <Property Name="IsIntelligentVerified" Type="bit" />
+          <Property Name="IntelVerifyResult" Type="smallint" />
+          <Property Name="ImageID" Type="varchar" MaxLength="25" Nullable="false" />
+          <Property Name="ImageType" Type="smallint" Nullable="false" />
+          <Property Name="PeriodTicket" Type="smallint" Nullable="false" />
+          <Property Name="SupervisionStatus" Type="smallint" />
+          <Property Name="PreSupervisionStatus" Type="smallint" />
+          <Property Name="F0" Type="smallint" />
+          <Property Name="F1" Type="smallint" />
+          <Property Name="F2" Type="smallint" />
+          <Property Name="FP" Type="int" />
+          <Property Name="FC" Type="int" />
+          <Property Name="TransactionStatus" Type="smallint" Nullable="false" />
+          <Property Name="TicketID" Type="varchar" MaxLength="20" />
+          <Property Name="CheckInDate" Type="datetime" />
+          <Property Name="CommitDate" Type="datetime" />
+          <Property Name="ModifyDate" Type="datetime" />
+          <Property Name="ETCStatus" Type="char" MaxLength="1" Nullable="false" />
+          <Property Name="SyncStatus" Type="smallint" />
+          <Property Name="SyncFeBe" Type="smallint" Nullable="false" />
+          <Property Name="SyncReturnMsg" Type="varchar" MaxLength="500" />
+          <Property Name="IsOnlineCheck" Type="int" Nullable="false" />
+          <Property Name="TID" Type="varchar" MaxLength="48" />
+          <Property Name="ErrorID" Type="int" />
+          <Property Name="Notes" Type="nvarchar" MaxLength="500" />
+        </EntityType>
+        <EntityType Name="IN_CheckForceOpen">
+          <Key>
+            <PropertyRef Name="InCheckForceOpenID" />
+          </Key>
+          <Property Name="InCheckForceOpenID" Type="uniqueidentifier" Nullable="false" />
+          <Property Name="TransactionID" Type="nvarchar" MaxLength="30" Nullable="false" />
+          <Property Name="TicketID" Type="nvarchar" MaxLength="20" Nullable="false" />
+          <Property Name="CheckDate" Type="datetime" Nullable="false" />
+          <Property Name="ForceOpenType" Type="smallint" Nullable="false" />
+          <Property Name="VehicleTypeID" Type="int" />
+          <Property Name="EmployeeID" Type="int" />
+          <Property Name="ShiftID" Type="int" />
+          <Property Name="LaneID" Type="int" />
+          <Property Name="StationID" Type="int" />
+          <Property Name="ImageID" Type="nvarchar" MaxLength="50" />
+          <Property Name="RecogPlateNumber" Type="nvarchar" MaxLength="15" />
+          <Property Name="RecogResultType" Type="smallint" />
+          <Property Name="TransactionStatus" Type="smallint" />
+          <Property Name="PrecheckStatus" Type="smallint" />
+          <Property Name="PreSupervisionStatus" Type="smallint" />
+          <Property Name="SupervisionStatus" Type="smallint" />
+          <Property Name="ErrorID" Type="int" />
+          <Property Name="WIMID" Type="uniqueidentifier" />
+          <Property Name="Note" Type="nvarchar" MaxLength="100" />
+          <Property Name="IsVehicleInfoManual" Type="bit" />
+        </EntityType>
+        <!--Errors Found During Generation:
+warning 6002: The table/view 'HPE_ETC.dbo.IN_CheckSmartCard' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+        <EntityType Name="IN_CheckSmartCard">
+          <Key>
+            <PropertyRef Name="InCheckSmartCardID" />
+            <PropertyRef Name="TransactionID" />
+            <PropertyRef Name="SmartCardID" />
+            <PropertyRef Name="CheckDate" />
+          </Key>
+          <Property Name="InCheckSmartCardID" Type="uniqueidentifier" Nullable="false" />
+          <Property Name="TransactionID" Type="nvarchar" MaxLength="30" Nullable="false" />
+          <Property Name="SmartCardID" Type="nvarchar" MaxLength="20" Nullable="false" />
+          <Property Name="CheckDate" Type="datetime" Nullable="false" />
+          <Property Name="TicketTypeID" Type="int" />
+          <Property Name="VehicleTypeID" Type="int" />
+          <Property Name="EmployeeID" Type="int" />
+          <Property Name="ShiftID" Type="int" />
+          <Property Name="LaneID" Type="int" />
+          <Property Name="StationID" Type="int" />
+          <Property Name="ImageID" Type="nvarchar" MaxLength="50" />
+          <Property Name="RecogPlateNumber" Type="nvarchar" MaxLength="15" />
+          <Property Name="RecogResultType" Type="smallint" />
+          <Property Name="TransactionStatus" Type="smallint" />
+          <Property Name="PrecheckStatus" Type="smallint" />
+          <Property Name="PreSupervisionStatus" Type="smallint" />
+          <Property Name="SupervisionStatus" Type="smallint" />
+          <Property Name="ErrorID" Type="int" />
+          <Property Name="WIMID" Type="uniqueidentifier" />
+          <Property Name="Note" Type="nvarchar" MaxLength="100" />
+          <Property Name="IsVehicleInfoManual" Type="bit" />
+        </EntityType>
+        <EntityType Name="OUT_CheckEtag">
+          <Key>
+            <PropertyRef Name="OutCheckEtagID" />
+          </Key>
+          <Property Name="OutCheckEtagID" Type="uniqueidentifier" Nullable="false" />
+          <Property Name="EtagId" Type="varchar" MaxLength="24" Nullable="false" />
+          <Property Name="CheckDate" Type="datetime" Nullable="false" />
+          <Property Name="InCheckDate" Type="datetime" Nullable="false" />
+          <Property Name="CheckTime" Type="int" Nullable="false" />
+          <Property Name="ReceiptNo" Type="varchar" MaxLength="50" />
+          <Property Name="ChargeAmount" Type="int" Nullable="false" />
+          <Property Name="TicketTypeID" Type="int" Nullable="false" />
+          <Property Name="VehicleTypeID" Type="int" Nullable="false" />
+          <Property Name="RouteID" Type="int" Nullable="false" />
+          <Property Name="EmployeeID" Type="int" Nullable="false" />
+          <Property Name="LaneID" Type="int" Nullable="false" />
+          <Property Name="InLaneID" Type="int" />
+          <Property Name="ShiftID" Type="int" Nullable="false" />
+          <Property Name="StationID" Type="int" Nullable="false" />
+          <Property Name="InStationID" Type="int" />
+          <Property Name="PlateType" Type="smallint" />
+          <Property Name="RegisPlate" Type="nvarchar" MaxLength="12" />
+          <Property Name="RecogPlate" Type="nvarchar" MaxLength="12" />
+          <Property Name="InRecogPlate" Type="nvarchar" MaxLength="15" />
+          <Property Name="RecogResultType" Type="smallint" />
+          <Property Name="IsIntelligentVerified" Type="bit" />
+          <Property Name="IntelVerifyResult" Type="smallint" />
+          <Property Name="ImageID" Type="varchar" MaxLength="25" Nullable="false" />
+          <Property Name="InImageID" Type="varchar" MaxLength="25" />
+          <Property Name="ImageType" Type="smallint" />
+          <Property Name="PeriodTicket" Type="smallint" Nullable="false" />
+          <Property Name="SupervisionStatus" Type="smallint" />
+          <Property Name="PreSupervisionStatus" Type="smallint" />
+          <Property Name="F0" Type="smallint" />
+          <Property Name="F1" Type="smallint" />
+          <Property Name="F2" Type="smallint" />
+          <Property Name="FP" Type="int" />
+          <Property Name="FC" Type="int" />
+          <Property Name="TransactionStatus" Type="smallint" Nullable="false" />
+          <Property Name="TicketID" Type="varchar" MaxLength="20" />
+          <Property Name="CheckInDate" Type="datetime" />
+          <Property Name="CommitDate" Type="datetime" />
+          <Property Name="ModifyDate" Type="datetime" />
+          <Property Name="ETCStatus" Type="char" MaxLength="1" Nullable="false" />
+          <Property Name="PriceTicketType" Type="int" Nullable="false" />
+          <Property Name="SyncStatus" Type="smallint" />
+          <Property Name="SyncFeBe" Type="smallint" Nullable="false" />
+          <Property Name="SyncReturnMsg" Type="varchar" MaxLength="500" />
+          <Property Name="IsOnlineCheck" Type="int" Nullable="false" />
+          <Property Name="TID" Type="varchar" MaxLength="48" />
+          <Property Name="ErrorID" Type="int" />
+          <Property Name="Notes" Type="nvarchar" MaxLength="500" />
+        </EntityType>
+        <EntityType Name="OUT_CheckForceOpen">
+          <Key>
+            <PropertyRef Name="OutCheckForceOpenID" />
+          </Key>
+          <Property Name="OutCheckForceOpenID" Type="uniqueidentifier" Nullable="false" />
+          <Property Name="TransactionID" Type="nvarchar" MaxLength="30" Nullable="false" />
+          <Property Name="TicketID" Type="nvarchar" MaxLength="20" Nullable="false" />
+          <Property Name="InCheckForceOpenID" Type="uniqueidentifier" />
+          <Property Name="InCheckForceOpenIDManual" Type="uniqueidentifier" />
+          <Property Name="CheckDate" Type="datetime" Nullable="false" />
+          <Property Name="ForceOpenType" Type="smallint" Nullable="false" />
+          <Property Name="VehicleTypeID" Type="int" />
+          <Property Name="RouteID" Type="int" />
+          <Property Name="EmployeeID" Type="int" />
+          <Property Name="ShiftID" Type="int" />
+          <Property Name="LaneID" Type="int" />
+          <Property Name="StationID" Type="int" />
+          <Property Name="ImageID" Type="nvarchar" MaxLength="50" />
+          <Property Name="RecogPlateNumber" Type="nvarchar" MaxLength="15" />
+          <Property Name="RecogResultType" Type="smallint" />
+          <Property Name="TransactionStatus" Type="smallint" />
+          <Property Name="PrecheckStatus" Type="smallint" />
+          <Property Name="PreSupervisionStatus" Type="smallint" />
+          <Property Name="SupervisionStatus" Type="smallint" />
+          <Property Name="ErrorID" Type="int" />
+          <Property Name="Note" Type="nvarchar" MaxLength="100" />
+          <Property Name="EntryImageID" Type="nvarchar" MaxLength="50" />
+        </EntityType>
+        <EntityType Name="OUT_CheckSmartCard">
+          <Key>
+            <PropertyRef Name="OutCheckSmartCardID" />
+          </Key>
+          <Property Name="OutCheckSmartCardID" Type="uniqueidentifier" Nullable="false" />
+          <Property Name="TransactionID" Type="nvarchar" MaxLength="30" Nullable="false" />
+          <Property Name="ReceiptNo" Type="nvarchar" MaxLength="50" Nullable="false" />
+          <Property Name="SmartCardID" Type="nvarchar" MaxLength="20" Nullable="false" />
+          <Property Name="InCheckSmartCardID" Type="uniqueidentifier" />
+          <Property Name="InCheckSmartCardIDManual" Type="uniqueidentifier" />
+          <Property Name="CheckDate" Type="datetime" Nullable="false" />
+          <Property Name="BeginBalance" Type="int" />
+          <Property Name="ChargeAmount" Type="int" />
+          <Property Name="Balance" Type="int" />
+          <Property Name="TicketTypeID" Type="int" />
+          <Property Name="VehicleTypeID" Type="int" />
+          <Property Name="RouteID" Type="int" />
+          <Property Name="EmployeeID" Type="int" />
+          <Property Name="ShiftID" Type="int" />
+          <Property Name="LaneID" Type="int" />
+          <Property Name="StationID" Type="int" />
+          <Property Name="ImageID" Type="nvarchar" MaxLength="50" />
+          <Property Name="RecogPlateNumber" Type="nvarchar" MaxLength="15" />
+          <Property Name="RecogResultType" Type="smallint" />
+          <Property Name="TransactionStatus" Type="smallint" />
+          <Property Name="PrecheckStatus" Type="smallint" />
+          <Property Name="PreSupervisionStatus" Type="smallint" />
+          <Property Name="SupervisionStatus" Type="smallint" />
+          <Property Name="ErrorID" Type="int" />
+          <Property Name="Note" Type="nvarchar" MaxLength="100" />
+          <Property Name="EntryPlateNumber" Type="nvarchar" MaxLength="15" />
+          <Property Name="EntryLaneID" Type="int" />
+          <Property Name="F1" Type="nvarchar" MaxLength="50" />
+          <Property Name="F2" Type="nvarchar" MaxLength="50" />
+        </EntityType>
+        <Association Name="FK_OUT_CheckForceOpen_IN_CheckForceOpen">
+          <End Role="IN_CheckForceOpen" Type="Self.IN_CheckForceOpen" Multiplicity="0..1" />
+          <End Role="OUT_CheckForceOpen" Type="Self.OUT_CheckForceOpen" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="IN_CheckForceOpen">
+              <PropertyRef Name="InCheckForceOpenID" />
+            </Principal>
+            <Dependent Role="OUT_CheckForceOpen">
+              <PropertyRef Name="InCheckForceOpenID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityContainer Name="HPE_ETCModelStoreContainer">
+          <EntitySet Name="IN_CheckEtag" EntityType="Self.IN_CheckEtag" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="IN_CheckForceOpen" EntityType="Self.IN_CheckForceOpen" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="OUT_CheckEtag" EntityType="Self.OUT_CheckEtag" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="OUT_CheckForceOpen" EntityType="Self.OUT_CheckForceOpen" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="OUT_CheckSmartCard" EntityType="Self.OUT_CheckSmartCard" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="IN_CheckSmartCard" EntityType="Self.IN_CheckSmartCard" store:Type="Tables" store:Schema="dbo">
+            <DefiningQuery>SELECT 
+[IN_CheckSmartCard].[InCheckSmartCardID] AS [InCheckSmartCardID], 
+[IN_CheckSmartCard].[TransactionID] AS [TransactionID], 
+[IN_CheckSmartCard].[SmartCardID] AS [SmartCardID], 
+[IN_CheckSmartCard].[CheckDate] AS [CheckDate], 
+[IN_CheckSmartCard].[TicketTypeID] AS [TicketTypeID], 
+[IN_CheckSmartCard].[VehicleTypeID] AS [VehicleTypeID], 
+[IN_CheckSmartCard].[EmployeeID] AS [EmployeeID], 
+[IN_CheckSmartCard].[ShiftID] AS [ShiftID], 
+[IN_CheckSmartCard].[LaneID] AS [LaneID], 
+[IN_CheckSmartCard].[StationID] AS [StationID], 
+[IN_CheckSmartCard].[ImageID] AS [ImageID], 
+[IN_CheckSmartCard].[RecogPlateNumber] AS [RecogPlateNumber], 
+[IN_CheckSmartCard].[RecogResultType] AS [RecogResultType], 
+[IN_CheckSmartCard].[TransactionStatus] AS [TransactionStatus], 
+[IN_CheckSmartCard].[PrecheckStatus] AS [PrecheckStatus], 
+[IN_CheckSmartCard].[PreSupervisionStatus] AS [PreSupervisionStatus], 
+[IN_CheckSmartCard].[SupervisionStatus] AS [SupervisionStatus], 
+[IN_CheckSmartCard].[ErrorID] AS [ErrorID], 
+[IN_CheckSmartCard].[WIMID] AS [WIMID], 
+[IN_CheckSmartCard].[Note] AS [Note], 
+[IN_CheckSmartCard].[IsVehicleInfoManual] AS [IsVehicleInfoManual]
+FROM [dbo].[IN_CheckSmartCard] AS [IN_CheckSmartCard]</DefiningQuery>
+          </EntitySet>
+          <AssociationSet Name="FK_OUT_CheckForceOpen_IN_CheckForceOpen" Association="Self.FK_OUT_CheckForceOpen_IN_CheckForceOpen">
+            <End Role="IN_CheckForceOpen" EntitySet="IN_CheckForceOpen" />
+            <End Role="OUT_CheckForceOpen" EntitySet="OUT_CheckForceOpen" />
+          </AssociationSet>
+        </EntityContainer>
+      </Schema>
+    </edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="HPE_ETCModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityType Name="IN_CheckEtag">
+          <Key>
+            <PropertyRef Name="InCheckEtagID" />
+          </Key>
+          <Property Name="InCheckEtagID" Type="Guid" Nullable="false" />
+          <Property Name="EtagId" Type="String" MaxLength="24" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="CheckDate" Type="DateTime" Nullable="false" Precision="3" />
+          <Property Name="CheckTime" Type="Int32" Nullable="false" />
+          <Property Name="VehicleTypeID" Type="Int32" Nullable="false" />
+          <Property Name="EmployeeID" Type="Int32" Nullable="false" />
+          <Property Name="LaneID" Type="Int32" Nullable="false" />
+          <Property Name="ShiftID" Type="Int32" Nullable="false" />
+          <Property Name="StationID" Type="Int32" Nullable="false" />
+          <Property Name="PlateType" Type="Int16" />
+          <Property Name="RegisPlate" Type="String" MaxLength="12" FixedLength="false" Unicode="true" />
+          <Property Name="RecogPlate" Type="String" MaxLength="12" FixedLength="false" Unicode="true" />
+          <Property Name="RecogResultType" Type="Int16" />
+          <Property Name="IsIntelligentVerified" Type="Boolean" />
+          <Property Name="IntelVerifyResult" Type="Int16" />
+          <Property Name="ImageID" Type="String" MaxLength="25" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="ImageType" Type="Int16" Nullable="false" />
+          <Property Name="PeriodTicket" Type="Int16" Nullable="false" />
+          <Property Name="SupervisionStatus" Type="Int16" />
+          <Property Name="PreSupervisionStatus" Type="Int16" />
+          <Property Name="F0" Type="Int16" />
+          <Property Name="F1" Type="Int16" />
+          <Property Name="F2" Type="Int16" />
+          <Property Name="FP" Type="Int32" />
+          <Property Name="FC" Type="Int32" />
+          <Property Name="TransactionStatus" Type="Int16" Nullable="false" />
+          <Property Name="TicketID" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+          <Property Name="CheckInDate" Type="DateTime" Precision="3" />
+          <Property Name="CommitDate" Type="DateTime" Precision="3" />
+          <Property Name="ModifyDate" Type="DateTime" Precision="3" />
+          <Property Name="ETCStatus" Type="String" MaxLength="1" FixedLength="true" Unicode="false" Nullable="false" />
+          <Property Name="SyncStatus" Type="Int16" />
+          <Property Name="SyncFeBe" Type="Int16" Nullable="false" />
+          <Property Name="SyncReturnMsg" Type="String" MaxLength="500" FixedLength="false" Unicode="false" />
+          <Property Name="IsOnlineCheck" Type="Int32" Nullable="false" />
+          <Property Name="TID" Type="String" MaxLength="48" FixedLength="false" Unicode="false" />
+          <Property Name="ErrorID" Type="Int32" />
+          <Property Name="Notes" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+        </EntityType>
+        <EntityType Name="IN_CheckForceOpen">
+          <Key>
+            <PropertyRef Name="InCheckForceOpenID" />
+          </Key>
+          <Property Name="InCheckForceOpenID" Type="Guid" Nullable="false" />
+          <Property Name="TransactionID" Type="String" MaxLength="30" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="TicketID" Type="String" MaxLength="20" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="CheckDate" Type="DateTime" Nullable="false" Precision="3" />
+          <Property Name="ForceOpenType" Type="Int16" Nullable="false" />
+          <Property Name="VehicleTypeID" Type="Int32" />
+          <Property Name="EmployeeID" Type="Int32" />
+          <Property Name="ShiftID" Type="Int32" />
+          <Property Name="LaneID" Type="Int32" />
+          <Property Name="StationID" Type="Int32" />
+          <Property Name="ImageID" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="RecogPlateNumber" Type="String" MaxLength="15" FixedLength="false" Unicode="true" />
+          <Property Name="RecogResultType" Type="Int16" />
+          <Property Name="TransactionStatus" Type="Int16" />
+          <Property Name="PrecheckStatus" Type="Int16" />
+          <Property Name="PreSupervisionStatus" Type="Int16" />
+          <Property Name="SupervisionStatus" Type="Int16" />
+          <Property Name="ErrorID" Type="Int32" />
+          <Property Name="WIMID" Type="Guid" />
+          <Property Name="Note" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+          <Property Name="IsVehicleInfoManual" Type="Boolean" />
+          <NavigationProperty Name="OUT_CheckForceOpen" Relationship="Self.FK_OUT_CheckForceOpen_IN_CheckForceOpen" FromRole="IN_CheckForceOpen" ToRole="OUT_CheckForceOpen" />
+        </EntityType>
+        <EntityType Name="OUT_CheckEtag">
+          <Key>
+            <PropertyRef Name="OutCheckEtagID" />
+          </Key>
+          <Property Name="OutCheckEtagID" Type="Guid" Nullable="false" />
+          <Property Name="EtagId" Type="String" MaxLength="24" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="CheckDate" Type="DateTime" Nullable="false" Precision="3" />
+          <Property Name="InCheckDate" Type="DateTime" Nullable="false" Precision="3" />
+          <Property Name="CheckTime" Type="Int32" Nullable="false" />
+          <Property Name="ReceiptNo" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="ChargeAmount" Type="Int32" Nullable="false" />
+          <Property Name="TicketTypeID" Type="Int32" Nullable="false" />
+          <Property Name="VehicleTypeID" Type="Int32" Nullable="false" />
+          <Property Name="RouteID" Type="Int32" Nullable="false" />
+          <Property Name="EmployeeID" Type="Int32" Nullable="false" />
+          <Property Name="LaneID" Type="Int32" Nullable="false" />
+          <Property Name="InLaneID" Type="Int32" />
+          <Property Name="ShiftID" Type="Int32" Nullable="false" />
+          <Property Name="StationID" Type="Int32" Nullable="false" />
+          <Property Name="InStationID" Type="Int32" />
+          <Property Name="PlateType" Type="Int16" />
+          <Property Name="RegisPlate" Type="String" MaxLength="12" FixedLength="false" Unicode="true" />
+          <Property Name="RecogPlate" Type="String" MaxLength="12" FixedLength="false" Unicode="true" />
+          <Property Name="InRecogPlate" Type="String" MaxLength="15" FixedLength="false" Unicode="true" />
+          <Property Name="RecogResultType" Type="Int16" />
+          <Property Name="IsIntelligentVerified" Type="Boolean" />
+          <Property Name="IntelVerifyResult" Type="Int16" />
+          <Property Name="ImageID" Type="String" MaxLength="25" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="InImageID" Type="String" MaxLength="25" FixedLength="false" Unicode="false" />
+          <Property Name="ImageType" Type="Int16" />
+          <Property Name="PeriodTicket" Type="Int16" Nullable="false" />
+          <Property Name="SupervisionStatus" Type="Int16" />
+          <Property Name="PreSupervisionStatus" Type="Int16" />
+          <Property Name="F0" Type="Int16" />
+          <Property Name="F1" Type="Int16" />
+          <Property Name="F2" Type="Int16" />
+          <Property Name="FP" Type="Int32" />
+          <Property Name="FC" Type="Int32" />
+          <Property Name="TransactionStatus" Type="Int16" Nullable="false" />
+          <Property Name="TicketID" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+          <Property Name="CheckInDate" Type="DateTime" Precision="3" />
+          <Property Name="CommitDate" Type="DateTime" Precision="3" />
+          <Property Name="ModifyDate" Type="DateTime" Precision="3" />
+          <Property Name="ETCStatus" Type="String" MaxLength="1" FixedLength="true" Unicode="false" Nullable="false" />
+          <Property Name="PriceTicketType" Type="Int32" Nullable="false" />
+          <Property Name="SyncStatus" Type="Int16" />
+          <Property Name="SyncFeBe" Type="Int16" Nullable="false" />
+          <Property Name="SyncReturnMsg" Type="String" MaxLength="500" FixedLength="false" Unicode="false" />
+          <Property Name="IsOnlineCheck" Type="Int32" Nullable="false" />
+          <Property Name="TID" Type="String" MaxLength="48" FixedLength="false" Unicode="false" />
+          <Property Name="ErrorID" Type="Int32" />
+          <Property Name="Notes" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+        </EntityType>
+        <EntityType Name="OUT_CheckForceOpen">
+          <Key>
+            <PropertyRef Name="OutCheckForceOpenID" />
+          </Key>
+          <Property Name="OutCheckForceOpenID" Type="Guid" Nullable="false" />
+          <Property Name="TransactionID" Type="String" MaxLength="30" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="TicketID" Type="String" MaxLength="20" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="InCheckForceOpenID" Type="Guid" />
+          <Property Name="InCheckForceOpenIDManual" Type="Guid" />
+          <Property Name="CheckDate" Type="DateTime" Nullable="false" Precision="3" />
+          <Property Name="ForceOpenType" Type="Int16" Nullable="false" />
+          <Property Name="VehicleTypeID" Type="Int32" />
+          <Property Name="RouteID" Type="Int32" />
+          <Property Name="EmployeeID" Type="Int32" />
+          <Property Name="ShiftID" Type="Int32" />
+          <Property Name="LaneID" Type="Int32" />
+          <Property Name="StationID" Type="Int32" />
+          <Property Name="ImageID" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="RecogPlateNumber" Type="String" MaxLength="15" FixedLength="false" Unicode="true" />
+          <Property Name="RecogResultType" Type="Int16" />
+          <Property Name="TransactionStatus" Type="Int16" />
+          <Property Name="PrecheckStatus" Type="Int16" />
+          <Property Name="PreSupervisionStatus" Type="Int16" />
+          <Property Name="SupervisionStatus" Type="Int16" />
+          <Property Name="ErrorID" Type="Int32" />
+          <Property Name="Note" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+          <Property Name="EntryImageID" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <NavigationProperty Name="IN_CheckForceOpen" Relationship="Self.FK_OUT_CheckForceOpen_IN_CheckForceOpen" FromRole="OUT_CheckForceOpen" ToRole="IN_CheckForceOpen" />
+        </EntityType>
+        <EntityType Name="OUT_CheckSmartCard">
+          <Key>
+            <PropertyRef Name="OutCheckSmartCardID" />
+          </Key>
+          <Property Name="OutCheckSmartCardID" Type="Guid" Nullable="false" />
+          <Property Name="TransactionID" Type="String" MaxLength="30" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="ReceiptNo" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="SmartCardID" Type="String" MaxLength="20" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="InCheckSmartCardID" Type="Guid" />
+          <Property Name="InCheckSmartCardIDManual" Type="Guid" />
+          <Property Name="CheckDate" Type="DateTime" Nullable="false" Precision="3" />
+          <Property Name="BeginBalance" Type="Int32" />
+          <Property Name="ChargeAmount" Type="Int32" />
+          <Property Name="Balance" Type="Int32" />
+          <Property Name="TicketTypeID" Type="Int32" />
+          <Property Name="VehicleTypeID" Type="Int32" />
+          <Property Name="RouteID" Type="Int32" />
+          <Property Name="EmployeeID" Type="Int32" />
+          <Property Name="ShiftID" Type="Int32" />
+          <Property Name="LaneID" Type="Int32" />
+          <Property Name="StationID" Type="Int32" />
+          <Property Name="ImageID" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="RecogPlateNumber" Type="String" MaxLength="15" FixedLength="false" Unicode="true" />
+          <Property Name="RecogResultType" Type="Int16" />
+          <Property Name="TransactionStatus" Type="Int16" />
+          <Property Name="PrecheckStatus" Type="Int16" />
+          <Property Name="PreSupervisionStatus" Type="Int16" />
+          <Property Name="SupervisionStatus" Type="Int16" />
+          <Property Name="ErrorID" Type="Int32" />
+          <Property Name="Note" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+          <Property Name="EntryPlateNumber" Type="String" MaxLength="15" FixedLength="false" Unicode="true" />
+          <Property Name="EntryLaneID" Type="Int32" />
+          <Property Name="F1" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="F2" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+        </EntityType>
+        <EntityType Name="IN_CheckSmartCard">
+          <Key>
+            <PropertyRef Name="InCheckSmartCardID" />
+            <PropertyRef Name="TransactionID" />
+            <PropertyRef Name="SmartCardID" />
+            <PropertyRef Name="CheckDate" />
+          </Key>
+          <Property Name="InCheckSmartCardID" Type="Guid" Nullable="false" />
+          <Property Name="TransactionID" Type="String" MaxLength="30" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="SmartCardID" Type="String" MaxLength="20" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="CheckDate" Type="DateTime" Nullable="false" Precision="3" />
+          <Property Name="TicketTypeID" Type="Int32" />
+          <Property Name="VehicleTypeID" Type="Int32" />
+          <Property Name="EmployeeID" Type="Int32" />
+          <Property Name="ShiftID" Type="Int32" />
+          <Property Name="LaneID" Type="Int32" />
+          <Property Name="StationID" Type="Int32" />
+          <Property Name="ImageID" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="RecogPlateNumber" Type="String" MaxLength="15" FixedLength="false" Unicode="true" />
+          <Property Name="RecogResultType" Type="Int16" />
+          <Property Name="TransactionStatus" Type="Int16" />
+          <Property Name="PrecheckStatus" Type="Int16" />
+          <Property Name="PreSupervisionStatus" Type="Int16" />
+          <Property Name="SupervisionStatus" Type="Int16" />
+          <Property Name="ErrorID" Type="Int32" />
+          <Property Name="WIMID" Type="Guid" />
+          <Property Name="Note" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+          <Property Name="IsVehicleInfoManual" Type="Boolean" />
+        </EntityType>
+        <Association Name="FK_OUT_CheckForceOpen_IN_CheckForceOpen">
+          <End Role="IN_CheckForceOpen" Type="Self.IN_CheckForceOpen" Multiplicity="0..1" />
+          <End Role="OUT_CheckForceOpen" Type="Self.OUT_CheckForceOpen" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="IN_CheckForceOpen">
+              <PropertyRef Name="InCheckForceOpenID" />
+            </Principal>
+            <Dependent Role="OUT_CheckForceOpen">
+              <PropertyRef Name="InCheckForceOpenID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityContainer Name="HPE_ETCEntities" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="IN_CheckEtag" EntityType="Self.IN_CheckEtag" />
+          <EntitySet Name="IN_CheckForceOpen" EntityType="Self.IN_CheckForceOpen" />
+          <EntitySet Name="OUT_CheckEtag" EntityType="Self.OUT_CheckEtag" />
+          <EntitySet Name="OUT_CheckForceOpen" EntityType="Self.OUT_CheckForceOpen" />
+          <EntitySet Name="OUT_CheckSmartCard" EntityType="Self.OUT_CheckSmartCard" />
+          <EntitySet Name="IN_CheckSmartCard" EntityType="Self.IN_CheckSmartCard" />
+          <AssociationSet Name="FK_OUT_CheckForceOpen_IN_CheckForceOpen" Association="Self.FK_OUT_CheckForceOpen_IN_CheckForceOpen">
+            <End Role="IN_CheckForceOpen" EntitySet="IN_CheckForceOpen" />
+            <End Role="OUT_CheckForceOpen" EntitySet="OUT_CheckForceOpen" />
+          </AssociationSet>
+        </EntityContainer>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="HPE_ETCModelStoreContainer" CdmEntityContainer="HPE_ETCEntities">
+          <EntitySetMapping Name="IN_CheckEtag">
+            <EntityTypeMapping TypeName="HPE_ETCModel.IN_CheckEtag">
+              <MappingFragment StoreEntitySet="IN_CheckEtag">
+                <ScalarProperty Name="InCheckEtagID" ColumnName="InCheckEtagID" />
+                <ScalarProperty Name="EtagId" ColumnName="EtagId" />
+                <ScalarProperty Name="CheckDate" ColumnName="CheckDate" />
+                <ScalarProperty Name="CheckTime" ColumnName="CheckTime" />
+                <ScalarProperty Name="VehicleTypeID" ColumnName="VehicleTypeID" />
+                <ScalarProperty Name="EmployeeID" ColumnName="EmployeeID" />
+                <ScalarProperty Name="LaneID" ColumnName="LaneID" />
+                <ScalarProperty Name="ShiftID" ColumnName="ShiftID" />
+                <ScalarProperty Name="StationID" ColumnName="StationID" />
+                <ScalarProperty Name="PlateType" ColumnName="PlateType" />
+                <ScalarProperty Name="RegisPlate" ColumnName="RegisPlate" />
+                <ScalarProperty Name="RecogPlate" ColumnName="RecogPlate" />
+                <ScalarProperty Name="RecogResultType" ColumnName="RecogResultType" />
+                <ScalarProperty Name="IsIntelligentVerified" ColumnName="IsIntelligentVerified" />
+                <ScalarProperty Name="IntelVerifyResult" ColumnName="IntelVerifyResult" />
+                <ScalarProperty Name="ImageID" ColumnName="ImageID" />
+                <ScalarProperty Name="ImageType" ColumnName="ImageType" />
+                <ScalarProperty Name="PeriodTicket" ColumnName="PeriodTicket" />
+                <ScalarProperty Name="SupervisionStatus" ColumnName="SupervisionStatus" />
+                <ScalarProperty Name="PreSupervisionStatus" ColumnName="PreSupervisionStatus" />
+                <ScalarProperty Name="F0" ColumnName="F0" />
+                <ScalarProperty Name="F1" ColumnName="F1" />
+                <ScalarProperty Name="F2" ColumnName="F2" />
+                <ScalarProperty Name="FP" ColumnName="FP" />
+                <ScalarProperty Name="FC" ColumnName="FC" />
+                <ScalarProperty Name="TransactionStatus" ColumnName="TransactionStatus" />
+                <ScalarProperty Name="TicketID" ColumnName="TicketID" />
+                <ScalarProperty Name="CheckInDate" ColumnName="CheckInDate" />
+                <ScalarProperty Name="CommitDate" ColumnName="CommitDate" />
+                <ScalarProperty Name="ModifyDate" ColumnName="ModifyDate" />
+                <ScalarProperty Name="ETCStatus" ColumnName="ETCStatus" />
+                <ScalarProperty Name="SyncStatus" ColumnName="SyncStatus" />
+                <ScalarProperty Name="SyncFeBe" ColumnName="SyncFeBe" />
+                <ScalarProperty Name="SyncReturnMsg" ColumnName="SyncReturnMsg" />
+                <ScalarProperty Name="IsOnlineCheck" ColumnName="IsOnlineCheck" />
+                <ScalarProperty Name="TID" ColumnName="TID" />
+                <ScalarProperty Name="ErrorID" ColumnName="ErrorID" />
+                <ScalarProperty Name="Notes" ColumnName="Notes" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="IN_CheckForceOpen">
+            <EntityTypeMapping TypeName="HPE_ETCModel.IN_CheckForceOpen">
+              <MappingFragment StoreEntitySet="IN_CheckForceOpen">
+                <ScalarProperty Name="InCheckForceOpenID" ColumnName="InCheckForceOpenID" />
+                <ScalarProperty Name="TransactionID" ColumnName="TransactionID" />
+                <ScalarProperty Name="TicketID" ColumnName="TicketID" />
+                <ScalarProperty Name="CheckDate" ColumnName="CheckDate" />
+                <ScalarProperty Name="ForceOpenType" ColumnName="ForceOpenType" />
+                <ScalarProperty Name="VehicleTypeID" ColumnName="VehicleTypeID" />
+                <ScalarProperty Name="EmployeeID" ColumnName="EmployeeID" />
+                <ScalarProperty Name="ShiftID" ColumnName="ShiftID" />
+                <ScalarProperty Name="LaneID" ColumnName="LaneID" />
+                <ScalarProperty Name="StationID" ColumnName="StationID" />
+                <ScalarProperty Name="ImageID" ColumnName="ImageID" />
+                <ScalarProperty Name="RecogPlateNumber" ColumnName="RecogPlateNumber" />
+                <ScalarProperty Name="RecogResultType" ColumnName="RecogResultType" />
+                <ScalarProperty Name="TransactionStatus" ColumnName="TransactionStatus" />
+                <ScalarProperty Name="PrecheckStatus" ColumnName="PrecheckStatus" />
+                <ScalarProperty Name="PreSupervisionStatus" ColumnName="PreSupervisionStatus" />
+                <ScalarProperty Name="SupervisionStatus" ColumnName="SupervisionStatus" />
+                <ScalarProperty Name="ErrorID" ColumnName="ErrorID" />
+                <ScalarProperty Name="WIMID" ColumnName="WIMID" />
+                <ScalarProperty Name="Note" ColumnName="Note" />
+                <ScalarProperty Name="IsVehicleInfoManual" ColumnName="IsVehicleInfoManual" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="OUT_CheckEtag">
+            <EntityTypeMapping TypeName="HPE_ETCModel.OUT_CheckEtag">
+              <MappingFragment StoreEntitySet="OUT_CheckEtag">
+                <ScalarProperty Name="OutCheckEtagID" ColumnName="OutCheckEtagID" />
+                <ScalarProperty Name="EtagId" ColumnName="EtagId" />
+                <ScalarProperty Name="CheckDate" ColumnName="CheckDate" />
+                <ScalarProperty Name="InCheckDate" ColumnName="InCheckDate" />
+                <ScalarProperty Name="CheckTime" ColumnName="CheckTime" />
+                <ScalarProperty Name="ReceiptNo" ColumnName="ReceiptNo" />
+                <ScalarProperty Name="ChargeAmount" ColumnName="ChargeAmount" />
+                <ScalarProperty Name="TicketTypeID" ColumnName="TicketTypeID" />
+                <ScalarProperty Name="VehicleTypeID" ColumnName="VehicleTypeID" />
+                <ScalarProperty Name="RouteID" ColumnName="RouteID" />
+                <ScalarProperty Name="EmployeeID" ColumnName="EmployeeID" />
+                <ScalarProperty Name="LaneID" ColumnName="LaneID" />
+                <ScalarProperty Name="InLaneID" ColumnName="InLaneID" />
+                <ScalarProperty Name="ShiftID" ColumnName="ShiftID" />
+                <ScalarProperty Name="StationID" ColumnName="StationID" />
+                <ScalarProperty Name="InStationID" ColumnName="InStationID" />
+                <ScalarProperty Name="PlateType" ColumnName="PlateType" />
+                <ScalarProperty Name="RegisPlate" ColumnName="RegisPlate" />
+                <ScalarProperty Name="RecogPlate" ColumnName="RecogPlate" />
+                <ScalarProperty Name="InRecogPlate" ColumnName="InRecogPlate" />
+                <ScalarProperty Name="RecogResultType" ColumnName="RecogResultType" />
+                <ScalarProperty Name="IsIntelligentVerified" ColumnName="IsIntelligentVerified" />
+                <ScalarProperty Name="IntelVerifyResult" ColumnName="IntelVerifyResult" />
+                <ScalarProperty Name="ImageID" ColumnName="ImageID" />
+                <ScalarProperty Name="InImageID" ColumnName="InImageID" />
+                <ScalarProperty Name="ImageType" ColumnName="ImageType" />
+                <ScalarProperty Name="PeriodTicket" ColumnName="PeriodTicket" />
+                <ScalarProperty Name="SupervisionStatus" ColumnName="SupervisionStatus" />
+                <ScalarProperty Name="PreSupervisionStatus" ColumnName="PreSupervisionStatus" />
+                <ScalarProperty Name="F0" ColumnName="F0" />
+                <ScalarProperty Name="F1" ColumnName="F1" />
+                <ScalarProperty Name="F2" ColumnName="F2" />
+                <ScalarProperty Name="FP" ColumnName="FP" />
+                <ScalarProperty Name="FC" ColumnName="FC" />
+                <ScalarProperty Name="TransactionStatus" ColumnName="TransactionStatus" />
+                <ScalarProperty Name="TicketID" ColumnName="TicketID" />
+                <ScalarProperty Name="CheckInDate" ColumnName="CheckInDate" />
+                <ScalarProperty Name="CommitDate" ColumnName="CommitDate" />
+                <ScalarProperty Name="ModifyDate" ColumnName="ModifyDate" />
+                <ScalarProperty Name="ETCStatus" ColumnName="ETCStatus" />
+                <ScalarProperty Name="PriceTicketType" ColumnName="PriceTicketType" />
+                <ScalarProperty Name="SyncStatus" ColumnName="SyncStatus" />
+                <ScalarProperty Name="SyncFeBe" ColumnName="SyncFeBe" />
+                <ScalarProperty Name="SyncReturnMsg" ColumnName="SyncReturnMsg" />
+                <ScalarProperty Name="IsOnlineCheck" ColumnName="IsOnlineCheck" />
+                <ScalarProperty Name="TID" ColumnName="TID" />
+                <ScalarProperty Name="ErrorID" ColumnName="ErrorID" />
+                <ScalarProperty Name="Notes" ColumnName="Notes" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="OUT_CheckForceOpen">
+            <EntityTypeMapping TypeName="HPE_ETCModel.OUT_CheckForceOpen">
+              <MappingFragment StoreEntitySet="OUT_CheckForceOpen">
+                <ScalarProperty Name="OutCheckForceOpenID" ColumnName="OutCheckForceOpenID" />
+                <ScalarProperty Name="TransactionID" ColumnName="TransactionID" />
+                <ScalarProperty Name="TicketID" ColumnName="TicketID" />
+                <ScalarProperty Name="InCheckForceOpenID" ColumnName="InCheckForceOpenID" />
+                <ScalarProperty Name="InCheckForceOpenIDManual" ColumnName="InCheckForceOpenIDManual" />
+                <ScalarProperty Name="CheckDate" ColumnName="CheckDate" />
+                <ScalarProperty Name="ForceOpenType" ColumnName="ForceOpenType" />
+                <ScalarProperty Name="VehicleTypeID" ColumnName="VehicleTypeID" />
+                <ScalarProperty Name="RouteID" ColumnName="RouteID" />
+                <ScalarProperty Name="EmployeeID" ColumnName="EmployeeID" />
+                <ScalarProperty Name="ShiftID" ColumnName="ShiftID" />
+                <ScalarProperty Name="LaneID" ColumnName="LaneID" />
+                <ScalarProperty Name="StationID" ColumnName="StationID" />
+                <ScalarProperty Name="ImageID" ColumnName="ImageID" />
+                <ScalarProperty Name="RecogPlateNumber" ColumnName="RecogPlateNumber" />
+                <ScalarProperty Name="RecogResultType" ColumnName="RecogResultType" />
+                <ScalarProperty Name="TransactionStatus" ColumnName="TransactionStatus" />
+                <ScalarProperty Name="PrecheckStatus" ColumnName="PrecheckStatus" />
+                <ScalarProperty Name="PreSupervisionStatus" ColumnName="PreSupervisionStatus" />
+                <ScalarProperty Name="SupervisionStatus" ColumnName="SupervisionStatus" />
+                <ScalarProperty Name="ErrorID" ColumnName="ErrorID" />
+                <ScalarProperty Name="Note" ColumnName="Note" />
+                <ScalarProperty Name="EntryImageID" ColumnName="EntryImageID" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="OUT_CheckSmartCard">
+            <EntityTypeMapping TypeName="HPE_ETCModel.OUT_CheckSmartCard">
+              <MappingFragment StoreEntitySet="OUT_CheckSmartCard">
+                <ScalarProperty Name="OutCheckSmartCardID" ColumnName="OutCheckSmartCardID" />
+                <ScalarProperty Name="TransactionID" ColumnName="TransactionID" />
+                <ScalarProperty Name="ReceiptNo" ColumnName="ReceiptNo" />
+                <ScalarProperty Name="SmartCardID" ColumnName="SmartCardID" />
+                <ScalarProperty Name="InCheckSmartCardID" ColumnName="InCheckSmartCardID" />
+                <ScalarProperty Name="InCheckSmartCardIDManual" ColumnName="InCheckSmartCardIDManual" />
+                <ScalarProperty Name="CheckDate" ColumnName="CheckDate" />
+                <ScalarProperty Name="BeginBalance" ColumnName="BeginBalance" />
+                <ScalarProperty Name="ChargeAmount" ColumnName="ChargeAmount" />
+                <ScalarProperty Name="Balance" ColumnName="Balance" />
+                <ScalarProperty Name="TicketTypeID" ColumnName="TicketTypeID" />
+                <ScalarProperty Name="VehicleTypeID" ColumnName="VehicleTypeID" />
+                <ScalarProperty Name="RouteID" ColumnName="RouteID" />
+                <ScalarProperty Name="EmployeeID" ColumnName="EmployeeID" />
+                <ScalarProperty Name="ShiftID" ColumnName="ShiftID" />
+                <ScalarProperty Name="LaneID" ColumnName="LaneID" />
+                <ScalarProperty Name="StationID" ColumnName="StationID" />
+                <ScalarProperty Name="ImageID" ColumnName="ImageID" />
+                <ScalarProperty Name="RecogPlateNumber" ColumnName="RecogPlateNumber" />
+                <ScalarProperty Name="RecogResultType" ColumnName="RecogResultType" />
+                <ScalarProperty Name="TransactionStatus" ColumnName="TransactionStatus" />
+                <ScalarProperty Name="PrecheckStatus" ColumnName="PrecheckStatus" />
+                <ScalarProperty Name="PreSupervisionStatus" ColumnName="PreSupervisionStatus" />
+                <ScalarProperty Name="SupervisionStatus" ColumnName="SupervisionStatus" />
+                <ScalarProperty Name="ErrorID" ColumnName="ErrorID" />
+                <ScalarProperty Name="Note" ColumnName="Note" />
+                <ScalarProperty Name="EntryPlateNumber" ColumnName="EntryPlateNumber" />
+                <ScalarProperty Name="EntryLaneID" ColumnName="EntryLaneID" />
+                <ScalarProperty Name="F1" ColumnName="F1" />
+                <ScalarProperty Name="F2" ColumnName="F2" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="IN_CheckSmartCard">
+            <EntityTypeMapping TypeName="HPE_ETCModel.IN_CheckSmartCard">
+              <MappingFragment StoreEntitySet="IN_CheckSmartCard">
+                <ScalarProperty Name="InCheckSmartCardID" ColumnName="InCheckSmartCardID" />
+                <ScalarProperty Name="TransactionID" ColumnName="TransactionID" />
+                <ScalarProperty Name="SmartCardID" ColumnName="SmartCardID" />
+                <ScalarProperty Name="CheckDate" ColumnName="CheckDate" />
+                <ScalarProperty Name="TicketTypeID" ColumnName="TicketTypeID" />
+                <ScalarProperty Name="VehicleTypeID" ColumnName="VehicleTypeID" />
+                <ScalarProperty Name="EmployeeID" ColumnName="EmployeeID" />
+                <ScalarProperty Name="ShiftID" ColumnName="ShiftID" />
+                <ScalarProperty Name="LaneID" ColumnName="LaneID" />
+                <ScalarProperty Name="StationID" ColumnName="StationID" />
+                <ScalarProperty Name="ImageID" ColumnName="ImageID" />
+                <ScalarProperty Name="RecogPlateNumber" ColumnName="RecogPlateNumber" />
+                <ScalarProperty Name="RecogResultType" ColumnName="RecogResultType" />
+                <ScalarProperty Name="TransactionStatus" ColumnName="TransactionStatus" />
+                <ScalarProperty Name="PrecheckStatus" ColumnName="PrecheckStatus" />
+                <ScalarProperty Name="PreSupervisionStatus" ColumnName="PreSupervisionStatus" />
+                <ScalarProperty Name="SupervisionStatus" ColumnName="SupervisionStatus" />
+                <ScalarProperty Name="ErrorID" ColumnName="ErrorID" />
+                <ScalarProperty Name="WIMID" ColumnName="WIMID" />
+                <ScalarProperty Name="Note" ColumnName="Note" />
+                <ScalarProperty Name="IsVehicleInfoManual" ColumnName="IsVehicleInfoManual" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="false" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
+        <DesignerProperty Name="UseLegacyProvider" Value="true" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="None" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>

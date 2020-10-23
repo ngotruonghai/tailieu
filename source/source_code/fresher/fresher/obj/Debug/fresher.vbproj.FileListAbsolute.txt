@@ -1,0 +1,13 @@
+D:\công_ty\source\source_code\fresher\fresher\bin\Debug\fresher.exe.config
+D:\công_ty\source\source_code\fresher\fresher\bin\Debug\fresher.exe
+D:\công_ty\source\source_code\fresher\fresher\bin\Debug\fresher.pdb
+D:\công_ty\source\source_code\fresher\fresher\bin\Debug\fresher.xml
+D:\công_ty\source\source_code\fresher\fresher\obj\Debug\fresher.vbprojAssemblyReference.cache
+D:\công_ty\source\source_code\fresher\fresher\obj\Debug\fresher.controlItems.resources
+D:\công_ty\source\source_code\fresher\fresher\obj\Debug\fresher.Form1.resources
+D:\công_ty\source\source_code\fresher\fresher\obj\Debug\fresher.Resources.resources
+D:\công_ty\source\source_code\fresher\fresher\obj\Debug\fresher.vbproj.GenerateResource.cache
+D:\công_ty\source\source_code\fresher\fresher\obj\Debug\fresher.vbproj.CoreCompileInputs.cache
+D:\công_ty\source\source_code\fresher\fresher\obj\Debug\fresher.exe
+D:\công_ty\source\source_code\fresher\fresher\obj\Debug\fresher.xml
+D:\công_ty\source\source_code\fresher\fresher\obj\Debug\fresher.pdb

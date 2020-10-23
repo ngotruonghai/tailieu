@@ -1,0 +1,10 @@
+D:\IT\LT_window2\HDT\HDT\bin\Debug\HDT.exe.config
+D:\IT\LT_window2\HDT\HDT\bin\Debug\HDT.exe
+D:\IT\LT_window2\HDT\HDT\bin\Debug\HDT.pdb
+D:\IT\LT_window2\HDT\HDT\obj\Debug\HDT.csprojAssemblyReference.cache
+D:\IT\LT_window2\HDT\HDT\obj\Debug\HDT.Properties.Resources.resources
+D:\IT\LT_window2\HDT\HDT\obj\Debug\HDT.csproj.GenerateResource.cache
+D:\IT\LT_window2\HDT\HDT\obj\Debug\HDT.csproj.CoreCompileInputs.cache
+D:\IT\LT_window2\HDT\HDT\obj\Debug\HDT.exe
+D:\IT\LT_window2\HDT\HDT\obj\Debug\HDT.pdb
+D:\IT\LT_window2\HDT\HDT\obj\Debug\HDT.Form1.resources
