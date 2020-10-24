@@ -1,0 +1,11 @@
+D:\haingo\source\source_code\fresher\fresher\bin\Debug\fresher.exe.config
+D:\haingo\source\source_code\fresher\fresher\bin\Debug\fresher.exe
+D:\haingo\source\source_code\fresher\fresher\bin\Debug\fresher.pdb
+D:\haingo\source\source_code\fresher\fresher\bin\Debug\fresher.xml
+D:\haingo\source\source_code\fresher\fresher\obj\Debug\fresher.vbprojResolveAssemblyReference.cache
+D:\haingo\source\source_code\fresher\fresher\obj\Debug\fresher.Form1.resources
+D:\haingo\source\source_code\fresher\fresher\obj\Debug\fresher.Resources.resources
+D:\haingo\source\source_code\fresher\fresher\obj\Debug\fresher.vbproj.GenerateResource.Cache
+D:\haingo\source\source_code\fresher\fresher\obj\Debug\fresher.exe
+D:\haingo\source\source_code\fresher\fresher\obj\Debug\fresher.xml
+D:\haingo\source\source_code\fresher\fresher\obj\Debug\fresher.pdb
