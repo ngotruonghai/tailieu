@@ -1,0 +1,10 @@
+C:\Users\ADMIN\Desktop\ngotruonghai\ngotruonghai\bin\Debug\ngotruonghai.exe.config
+C:\Users\ADMIN\Desktop\ngotruonghai\ngotruonghai\bin\Debug\ngotruonghai.exe
+C:\Users\ADMIN\Desktop\ngotruonghai\ngotruonghai\bin\Debug\ngotruonghai.pdb
+C:\Users\ADMIN\Desktop\ngotruonghai\ngotruonghai\obj\Debug\ngotruonghai.csprojAssemblyReference.cache
+C:\Users\ADMIN\Desktop\ngotruonghai\ngotruonghai\obj\Debug\ngotruonghai.Form1.resources
+C:\Users\ADMIN\Desktop\ngotruonghai\ngotruonghai\obj\Debug\ngotruonghai.Properties.Resources.resources
+C:\Users\ADMIN\Desktop\ngotruonghai\ngotruonghai\obj\Debug\ngotruonghai.csproj.GenerateResource.cache
+C:\Users\ADMIN\Desktop\ngotruonghai\ngotruonghai\obj\Debug\ngotruonghai.csproj.CoreCompileInputs.cache
+C:\Users\ADMIN\Desktop\ngotruonghai\ngotruonghai\obj\Debug\ngotruonghai.exe
+C:\Users\ADMIN\Desktop\ngotruonghai\ngotruonghai\obj\Debug\ngotruonghai.pdb

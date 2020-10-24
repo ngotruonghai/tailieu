@@ -1,0 +1,40 @@
+C:\Users\ADMIN\Desktop\trackbar\trackbar\bin\Debug\trackbar.exe.config
+C:\Users\ADMIN\Desktop\trackbar\trackbar\bin\Debug\trackbar.exe
+C:\Users\ADMIN\Desktop\trackbar\trackbar\bin\Debug\trackbar.pdb
+C:\Users\ADMIN\Desktop\trackbar\trackbar\obj\Debug\trackbar.csprojAssemblyReference.cache
+C:\Users\ADMIN\Desktop\trackbar\trackbar\obj\Debug\trackbar.Form1.resources
+C:\Users\ADMIN\Desktop\trackbar\trackbar\obj\Debug\trackbar.Properties.Resources.resources
+C:\Users\ADMIN\Desktop\trackbar\trackbar\obj\Debug\trackbar.csproj.GenerateResource.cache
+C:\Users\ADMIN\Desktop\trackbar\trackbar\obj\Debug\trackbar.csproj.CoreCompileInputs.cache
+C:\Users\ADMIN\Desktop\trackbar\trackbar\obj\Debug\trackbar.exe
+C:\Users\ADMIN\Desktop\trackbar\trackbar\obj\Debug\trackbar.pdb
+E:\Lập Trình\LT_Window1\bài tập\trackbar\trackbar\bin\Debug\trackbar.exe.config
+E:\Lập Trình\LT_Window1\bài tập\trackbar\trackbar\bin\Debug\trackbar.exe
+E:\Lập Trình\LT_Window1\bài tập\trackbar\trackbar\bin\Debug\trackbar.pdb
+E:\Lập Trình\LT_Window1\bài tập\trackbar\trackbar\obj\Debug\trackbar.csprojAssemblyReference.cache
+E:\Lập Trình\LT_Window1\bài tập\trackbar\trackbar\obj\Debug\trackbar.Form1.resources
+E:\Lập Trình\LT_Window1\bài tập\trackbar\trackbar\obj\Debug\trackbar.Properties.Resources.resources
+E:\Lập Trình\LT_Window1\bài tập\trackbar\trackbar\obj\Debug\trackbar.csproj.GenerateResource.cache
+E:\Lập Trình\LT_Window1\bài tập\trackbar\trackbar\obj\Debug\trackbar.csproj.CoreCompileInputs.cache
+E:\Lập Trình\LT_Window1\bài tập\trackbar\trackbar\obj\Debug\trackbar.exe
+E:\Lập Trình\LT_Window1\bài tập\trackbar\trackbar\obj\Debug\trackbar.pdb
+E:\program\LT_Window1\bài tập\trackbar\trackbar\bin\Debug\trackbar.exe.config
+E:\program\LT_Window1\bài tập\trackbar\trackbar\bin\Debug\trackbar.exe
+E:\program\LT_Window1\bài tập\trackbar\trackbar\bin\Debug\trackbar.pdb
+E:\program\LT_Window1\bài tập\trackbar\trackbar\obj\Debug\trackbar.csprojAssemblyReference.cache
+E:\program\LT_Window1\bài tập\trackbar\trackbar\obj\Debug\trackbar.Form1.resources
+E:\program\LT_Window1\bài tập\trackbar\trackbar\obj\Debug\trackbar.Properties.Resources.resources
+E:\program\LT_Window1\bài tập\trackbar\trackbar\obj\Debug\trackbar.csproj.GenerateResource.cache
+E:\program\LT_Window1\bài tập\trackbar\trackbar\obj\Debug\trackbar.csproj.CoreCompileInputs.cache
+E:\program\LT_Window1\bài tập\trackbar\trackbar\obj\Debug\trackbar.exe
+E:\program\LT_Window1\bài tập\trackbar\trackbar\obj\Debug\trackbar.pdb
+D:\công_ty\source\source_code\LT_Window1\bài tập\trackbar\trackbar\bin\Debug\trackbar.exe.config
+D:\công_ty\source\source_code\LT_Window1\bài tập\trackbar\trackbar\bin\Debug\trackbar.exe
+D:\công_ty\source\source_code\LT_Window1\bài tập\trackbar\trackbar\bin\Debug\trackbar.pdb
+D:\công_ty\source\source_code\LT_Window1\bài tập\trackbar\trackbar\obj\Debug\trackbar.csprojAssemblyReference.cache
+D:\công_ty\source\source_code\LT_Window1\bài tập\trackbar\trackbar\obj\Debug\trackbar.Form1.resources
+D:\công_ty\source\source_code\LT_Window1\bài tập\trackbar\trackbar\obj\Debug\trackbar.Properties.Resources.resources
+D:\công_ty\source\source_code\LT_Window1\bài tập\trackbar\trackbar\obj\Debug\trackbar.csproj.GenerateResource.cache
+D:\công_ty\source\source_code\LT_Window1\bài tập\trackbar\trackbar\obj\Debug\trackbar.csproj.CoreCompileInputs.cache
+D:\công_ty\source\source_code\LT_Window1\bài tập\trackbar\trackbar\obj\Debug\trackbar.exe
+D:\công_ty\source\source_code\LT_Window1\bài tập\trackbar\trackbar\obj\Debug\trackbar.pdb

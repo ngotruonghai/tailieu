@@ -1,0 +1,30 @@
+C:\Users\ADMIN\Desktop\Tổng hợp\lisview\bin\Debug\lisview.exe.config
+C:\Users\ADMIN\Desktop\Tổng hợp\lisview\bin\Debug\lisview.exe
+C:\Users\ADMIN\Desktop\Tổng hợp\lisview\bin\Debug\lisview.pdb
+C:\Users\ADMIN\Desktop\Tổng hợp\lisview\obj\Debug\lisview.Form1.resources
+C:\Users\ADMIN\Desktop\Tổng hợp\lisview\obj\Debug\lisview.Properties.Resources.resources
+C:\Users\ADMIN\Desktop\Tổng hợp\lisview\obj\Debug\lisview.csproj.GenerateResource.cache
+C:\Users\ADMIN\Desktop\Tổng hợp\lisview\obj\Debug\lisview.csproj.CoreCompileInputs.cache
+C:\Users\ADMIN\Desktop\Tổng hợp\lisview\obj\Debug\lisview.exe
+C:\Users\ADMIN\Desktop\Tổng hợp\lisview\obj\Debug\lisview.pdb
+C:\Users\ADMIN\Desktop\Tổng hợp\lisview\obj\Debug\lisview.csprojAssemblyReference.cache
+E:\program\LT_Window1\bài tập\Tổng hợp\lisview\bin\Debug\lisview.exe.config
+E:\program\LT_Window1\bài tập\Tổng hợp\lisview\bin\Debug\lisview.exe
+E:\program\LT_Window1\bài tập\Tổng hợp\lisview\bin\Debug\lisview.pdb
+E:\program\LT_Window1\bài tập\Tổng hợp\lisview\obj\Debug\lisview.csprojAssemblyReference.cache
+E:\program\LT_Window1\bài tập\Tổng hợp\lisview\obj\Debug\lisview.Form1.resources
+E:\program\LT_Window1\bài tập\Tổng hợp\lisview\obj\Debug\lisview.Properties.Resources.resources
+E:\program\LT_Window1\bài tập\Tổng hợp\lisview\obj\Debug\lisview.csproj.GenerateResource.cache
+E:\program\LT_Window1\bài tập\Tổng hợp\lisview\obj\Debug\lisview.csproj.CoreCompileInputs.cache
+E:\program\LT_Window1\bài tập\Tổng hợp\lisview\obj\Debug\lisview.exe
+E:\program\LT_Window1\bài tập\Tổng hợp\lisview\obj\Debug\lisview.pdb
+D:\IT\LT_Window1\bài tập\Tổng hợp\lisview\bin\Debug\lisview.exe.config
+D:\IT\LT_Window1\bài tập\Tổng hợp\lisview\bin\Debug\lisview.exe
+D:\IT\LT_Window1\bài tập\Tổng hợp\lisview\bin\Debug\lisview.pdb
+D:\IT\LT_Window1\bài tập\Tổng hợp\lisview\obj\Debug\lisview.csprojAssemblyReference.cache
+D:\IT\LT_Window1\bài tập\Tổng hợp\lisview\obj\Debug\lisview.Form1.resources
+D:\IT\LT_Window1\bài tập\Tổng hợp\lisview\obj\Debug\lisview.Properties.Resources.resources
+D:\IT\LT_Window1\bài tập\Tổng hợp\lisview\obj\Debug\lisview.csproj.GenerateResource.cache
+D:\IT\LT_Window1\bài tập\Tổng hợp\lisview\obj\Debug\lisview.csproj.CoreCompileInputs.cache
+D:\IT\LT_Window1\bài tập\Tổng hợp\lisview\obj\Debug\lisview.exe
+D:\IT\LT_Window1\bài tập\Tổng hợp\lisview\obj\Debug\lisview.pdb

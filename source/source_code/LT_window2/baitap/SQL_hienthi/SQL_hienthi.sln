@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.168
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SQL_hienthi", "SQL_hienthi\SQL_hienthi.csproj", "{D0006B00-9314-4831-B53F-9BD4D3A6459F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D0006B00-9314-4831-B53F-9BD4D3A6459F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D0006B00-9314-4831-B53F-9BD4D3A6459F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D0006B00-9314-4831-B53F-9BD4D3A6459F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D0006B00-9314-4831-B53F-9BD4D3A6459F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E0FB852F-A859-42C5-825F-094172243CD8}
+	EndGlobalSection
+EndGlobal

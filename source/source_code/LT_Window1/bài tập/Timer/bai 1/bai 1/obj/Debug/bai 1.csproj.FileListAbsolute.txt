@@ -1,0 +1,9 @@
+E:\ngay 3\bai 1\bai 1\bin\Debug\bai 1.exe.config
+E:\ngay 3\bai 1\bai 1\bin\Debug\bai 1.exe
+E:\ngay 3\bai 1\bai 1\bin\Debug\bai 1.pdb
+E:\ngay 3\bai 1\bai 1\obj\Debug\bai 1.csprojResolveAssemblyReference.cache
+E:\ngay 3\bai 1\bai 1\obj\Debug\bai_1.Form1.resources
+E:\ngay 3\bai 1\bai 1\obj\Debug\bai_1.Properties.Resources.resources
+E:\ngay 3\bai 1\bai 1\obj\Debug\bai 1.csproj.GenerateResource.Cache
+E:\ngay 3\bai 1\bai 1\obj\Debug\bai 1.exe
+E:\ngay 3\bai 1\bai 1\obj\Debug\bai 1.pdb

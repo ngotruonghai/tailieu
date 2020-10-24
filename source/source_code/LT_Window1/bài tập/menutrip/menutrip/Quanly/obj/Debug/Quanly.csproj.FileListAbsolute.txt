@@ -1,0 +1,31 @@
+C:\Users\SINHVIEN\Desktop\menutrip\menutrip\Quanly\bin\Debug\Quanly.exe.config
+C:\Users\SINHVIEN\Desktop\menutrip\menutrip\Quanly\bin\Debug\Quanly.exe
+C:\Users\SINHVIEN\Desktop\menutrip\menutrip\Quanly\bin\Debug\Quanly.pdb
+C:\Users\SINHVIEN\Desktop\menutrip\menutrip\Quanly\obj\Debug\Quanly.csprojResolveAssemblyReference.cache
+C:\Users\SINHVIEN\Desktop\menutrip\menutrip\Quanly\obj\Debug\Quanly.Form1.resources
+C:\Users\SINHVIEN\Desktop\menutrip\menutrip\Quanly\obj\Debug\Quanly.Properties.Resources.resources
+C:\Users\SINHVIEN\Desktop\menutrip\menutrip\Quanly\obj\Debug\Quanly.csproj.GenerateResource.Cache
+C:\Users\SINHVIEN\Desktop\menutrip\menutrip\Quanly\obj\Debug\Quanly.exe
+C:\Users\SINHVIEN\Desktop\menutrip\menutrip\Quanly\obj\Debug\Quanly.pdb
+C:\Users\SINHVIEN\Desktop\menutrip\menutrip\Quanly\obj\Debug\Quanly.QLBD.resources
+E:\program\LT_Window1\bài tập\menutrip\menutrip\Quanly\bin\Debug\Quanly.exe.config
+E:\program\LT_Window1\bài tập\menutrip\menutrip\Quanly\bin\Debug\Quanly.exe
+E:\program\LT_Window1\bài tập\menutrip\menutrip\Quanly\bin\Debug\Quanly.pdb
+E:\program\LT_Window1\bài tập\menutrip\menutrip\Quanly\obj\Debug\Quanly.csprojAssemblyReference.cache
+E:\program\LT_Window1\bài tập\menutrip\menutrip\Quanly\obj\Debug\Quanly.Properties.Resources.resources
+E:\program\LT_Window1\bài tập\menutrip\menutrip\Quanly\obj\Debug\Quanly.QLBD.resources
+E:\program\LT_Window1\bài tập\menutrip\menutrip\Quanly\obj\Debug\Quanly.csproj.GenerateResource.cache
+E:\program\LT_Window1\bài tập\menutrip\menutrip\Quanly\obj\Debug\Quanly.csproj.CoreCompileInputs.cache
+E:\program\LT_Window1\bài tập\menutrip\menutrip\Quanly\obj\Debug\Quanly.exe
+E:\program\LT_Window1\bài tập\menutrip\menutrip\Quanly\obj\Debug\Quanly.pdb
+E:\program\LT_Window1\bài tập\menutrip\menutrip\Quanly\obj\Debug\Quanly.hh.resources
+D:\IT\LT_Window1\bài tập\menutrip\menutrip\Quanly\bin\Debug\Quanly.exe.config
+D:\IT\LT_Window1\bài tập\menutrip\menutrip\Quanly\bin\Debug\Quanly.exe
+D:\IT\LT_Window1\bài tập\menutrip\menutrip\Quanly\bin\Debug\Quanly.pdb
+D:\IT\LT_Window1\bài tập\menutrip\menutrip\Quanly\obj\Debug\Quanly.csprojAssemblyReference.cache
+D:\IT\LT_Window1\bài tập\menutrip\menutrip\Quanly\obj\Debug\Quanly.hh.resources
+D:\IT\LT_Window1\bài tập\menutrip\menutrip\Quanly\obj\Debug\Quanly.Properties.Resources.resources
+D:\IT\LT_Window1\bài tập\menutrip\menutrip\Quanly\obj\Debug\Quanly.QLBD.resources
+D:\IT\LT_Window1\bài tập\menutrip\menutrip\Quanly\obj\Debug\Quanly.csproj.GenerateResource.cache
+D:\IT\LT_Window1\bài tập\menutrip\menutrip\Quanly\obj\Debug\Quanly.exe
+D:\IT\LT_Window1\bài tập\menutrip\menutrip\Quanly\obj\Debug\Quanly.pdb

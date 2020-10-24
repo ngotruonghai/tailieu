@@ -1,0 +1,20 @@
+E:\haingo\haingo\bin\Debug\haingo.exe.config
+E:\haingo\haingo\bin\Debug\haingo.exe
+E:\haingo\haingo\bin\Debug\haingo.pdb
+E:\haingo\haingo\obj\Debug\haingo.csprojAssemblyReference.cache
+E:\haingo\haingo\obj\Debug\haingo.Form1.resources
+E:\haingo\haingo\obj\Debug\haingo.Properties.Resources.resources
+E:\haingo\haingo\obj\Debug\haingo.csproj.GenerateResource.cache
+E:\haingo\haingo\obj\Debug\haingo.csproj.CoreCompileInputs.cache
+E:\haingo\haingo\obj\Debug\haingo.exe
+E:\haingo\haingo\obj\Debug\haingo.pdb
+E:\Lập Trình\LT_Window\bài tập\ngay 1\haingo\haingo\bin\Debug\haingo.exe.config
+E:\Lập Trình\LT_Window\bài tập\ngay 1\haingo\haingo\bin\Debug\haingo.exe
+E:\Lập Trình\LT_Window\bài tập\ngay 1\haingo\haingo\bin\Debug\haingo.pdb
+E:\Lập Trình\LT_Window\bài tập\ngay 1\haingo\haingo\obj\Debug\haingo.csprojAssemblyReference.cache
+E:\Lập Trình\LT_Window\bài tập\ngay 1\haingo\haingo\obj\Debug\haingo.Form1.resources
+E:\Lập Trình\LT_Window\bài tập\ngay 1\haingo\haingo\obj\Debug\haingo.Properties.Resources.resources
+E:\Lập Trình\LT_Window\bài tập\ngay 1\haingo\haingo\obj\Debug\haingo.csproj.GenerateResource.cache
+E:\Lập Trình\LT_Window\bài tập\ngay 1\haingo\haingo\obj\Debug\haingo.csproj.CoreCompileInputs.cache
+E:\Lập Trình\LT_Window\bài tập\ngay 1\haingo\haingo\obj\Debug\haingo.exe
+E:\Lập Trình\LT_Window\bài tập\ngay 1\haingo\haingo\obj\Debug\haingo.pdb

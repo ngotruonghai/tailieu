@@ -1,0 +1,10 @@
+E:\Lập Trình\LT_Window\bài tập\ngay 2\bai tap\bai tap\bin\Debug\bai tap.exe.config
+E:\Lập Trình\LT_Window\bài tập\ngay 2\bai tap\bai tap\bin\Debug\bai tap.exe
+E:\Lập Trình\LT_Window\bài tập\ngay 2\bai tap\bai tap\bin\Debug\bai tap.pdb
+E:\Lập Trình\LT_Window\bài tập\ngay 2\bai tap\bai tap\obj\Debug\bai tap.csprojAssemblyReference.cache
+E:\Lập Trình\LT_Window\bài tập\ngay 2\bai tap\bai tap\obj\Debug\bai_tap.Form1.resources
+E:\Lập Trình\LT_Window\bài tập\ngay 2\bai tap\bai tap\obj\Debug\bai_tap.Properties.Resources.resources
+E:\Lập Trình\LT_Window\bài tập\ngay 2\bai tap\bai tap\obj\Debug\bai tap.csproj.GenerateResource.cache
+E:\Lập Trình\LT_Window\bài tập\ngay 2\bai tap\bai tap\obj\Debug\bai tap.csproj.CoreCompileInputs.cache
+E:\Lập Trình\LT_Window\bài tập\ngay 2\bai tap\bai tap\obj\Debug\bai tap.exe
+E:\Lập Trình\LT_Window\bài tập\ngay 2\bai tap\bai tap\obj\Debug\bai tap.pdb

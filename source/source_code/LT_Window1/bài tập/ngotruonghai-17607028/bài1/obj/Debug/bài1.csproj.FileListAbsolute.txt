@@ -1,0 +1,19 @@
+C:\Users\SINHVIEN\Desktop\ngotruonghai-17607028\bài1\bin\Debug\bài1.exe.config
+C:\Users\SINHVIEN\Desktop\ngotruonghai-17607028\bài1\bin\Debug\bài1.exe
+C:\Users\SINHVIEN\Desktop\ngotruonghai-17607028\bài1\bin\Debug\bài1.pdb
+C:\Users\SINHVIEN\Desktop\ngotruonghai-17607028\bài1\obj\Debug\bài1.csprojResolveAssemblyReference.cache
+C:\Users\SINHVIEN\Desktop\ngotruonghai-17607028\bài1\obj\Debug\bài1.Form1.resources
+C:\Users\SINHVIEN\Desktop\ngotruonghai-17607028\bài1\obj\Debug\bài1.Properties.Resources.resources
+C:\Users\SINHVIEN\Desktop\ngotruonghai-17607028\bài1\obj\Debug\bài1.csproj.GenerateResource.Cache
+C:\Users\SINHVIEN\Desktop\ngotruonghai-17607028\bài1\obj\Debug\bài1.exe
+C:\Users\SINHVIEN\Desktop\ngotruonghai-17607028\bài1\obj\Debug\bài1.pdb
+E:\program\LT_Window1\bài tập\ngotruonghai-17607028\bài1\bin\Debug\bài1.exe.config
+E:\program\LT_Window1\bài tập\ngotruonghai-17607028\bài1\bin\Debug\bài1.exe
+E:\program\LT_Window1\bài tập\ngotruonghai-17607028\bài1\bin\Debug\bài1.pdb
+E:\program\LT_Window1\bài tập\ngotruonghai-17607028\bài1\obj\Debug\bài1.csprojAssemblyReference.cache
+E:\program\LT_Window1\bài tập\ngotruonghai-17607028\bài1\obj\Debug\bài1.Form1.resources
+E:\program\LT_Window1\bài tập\ngotruonghai-17607028\bài1\obj\Debug\bài1.Properties.Resources.resources
+E:\program\LT_Window1\bài tập\ngotruonghai-17607028\bài1\obj\Debug\bài1.csproj.GenerateResource.cache
+E:\program\LT_Window1\bài tập\ngotruonghai-17607028\bài1\obj\Debug\bài1.csproj.CoreCompileInputs.cache
+E:\program\LT_Window1\bài tập\ngotruonghai-17607028\bài1\obj\Debug\bài1.exe
+E:\program\LT_Window1\bài tập\ngotruonghai-17607028\bài1\obj\Debug\bài1.pdb

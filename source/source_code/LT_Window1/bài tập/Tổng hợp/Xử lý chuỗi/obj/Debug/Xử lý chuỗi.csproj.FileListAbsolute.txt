@@ -1,0 +1,10 @@
+E:\Lập Trình\LT_Window1\bài tập\Tổng hợp\Xử lý chuỗi\bin\Debug\Xử lý chuỗi.exe.config
+E:\Lập Trình\LT_Window1\bài tập\Tổng hợp\Xử lý chuỗi\bin\Debug\Xử lý chuỗi.exe
+E:\Lập Trình\LT_Window1\bài tập\Tổng hợp\Xử lý chuỗi\bin\Debug\Xử lý chuỗi.pdb
+E:\Lập Trình\LT_Window1\bài tập\Tổng hợp\Xử lý chuỗi\obj\Debug\Xử lý chuỗi.csprojAssemblyReference.cache
+E:\Lập Trình\LT_Window1\bài tập\Tổng hợp\Xử lý chuỗi\obj\Debug\Xử_lý_chuỗi.Form1.resources
+E:\Lập Trình\LT_Window1\bài tập\Tổng hợp\Xử lý chuỗi\obj\Debug\Xử_lý_chuỗi.Properties.Resources.resources
+E:\Lập Trình\LT_Window1\bài tập\Tổng hợp\Xử lý chuỗi\obj\Debug\Xử lý chuỗi.csproj.GenerateResource.cache
+E:\Lập Trình\LT_Window1\bài tập\Tổng hợp\Xử lý chuỗi\obj\Debug\Xử lý chuỗi.csproj.CoreCompileInputs.cache
+E:\Lập Trình\LT_Window1\bài tập\Tổng hợp\Xử lý chuỗi\obj\Debug\Xử lý chuỗi.exe
+E:\Lập Trình\LT_Window1\bài tập\Tổng hợp\Xử lý chuỗi\obj\Debug\Xử lý chuỗi.pdb
