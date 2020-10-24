@@ -1,0 +1,54 @@
+Public Class ucComment
+    Private WithEvents vTableLayoutPanel As New TableLayoutPanel
+    Private vSqlTable As eBOSS.Systems.Processing.Sql.SqlTable
+    Private vDictionary As New eBOSS.Systems.Processing.Data.Dictionary
+    Private vPropertyDateTime As String = "RecordDate"
+    Private vPropertyEmployeeName As String = "EmployeeName"
+    Private vPropertyComment As String = "Comment"
+    Private vPropertyLikeCount As String = "LikeCount"
+
+    Public Sub New()
+        Me.InitializeComponent()
+        Me.BuildData()
+    End Sub
+
+    Private Sub InitailizeControls()
+        vTableLayoutPanel.ColumnCount = 1
+        vTableLayoutPanel.RowCount = 0
+        vTableLayoutPanel.AutoScroll = True
+        vTableLayoutPanel.AutoSize = False
+        vTableLayoutPanel.GrowStyle = TableLayoutPanelGrowStyle.AddRows
+        vTableLayoutPanel.Dock = DockStyle.Fill
+        Me.Controls.Add(vTableLayoutPanel)
+
+        vSqlTable = New eBOSS.Systems.Processing.Sql.SqlTable(EnumTableType.DataOnly, IsSystemDatabase:=False)
+    End Sub
+
+#Region "Data Property"
+
+    Public ReadOnly Property SqlTable As eBOSS.Systems.Processing.Sql.SqlTable
+        Get
+            Return vSqlTable
+        End Get
+    End Property
+
+
+#End Region
+
+#Region "Data Process"
+    Public Sub BuildData()
+        For RowIndex As Integer = 0 To vSqlTable.RowCount - 1
+            Dim Comment As String = vSqlTable.GetValue(vPropertyComment, RowIndex, GetType(String))
+            Dim IsChild As Boolean =
+            Dim CommentItem As New ucCommentItem("Tran Van A", Comment, New Date(2020, 10, 20), 5, IsChild)
+            CommentItem.Dock = DockStyle.Fill
+            vTableLayoutPanel.RowStyles.Add(New RowStyle(SizeType.AutoSize))
+            vTableLayoutPanel.Controls.Add(CommentItem, column:=0, row:=ItemIndex)
+        Next
+    End Sub
+
+
+#End Region
+
+
+End Class
